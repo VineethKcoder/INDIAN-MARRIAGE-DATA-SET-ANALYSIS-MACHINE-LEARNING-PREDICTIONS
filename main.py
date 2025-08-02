@@ -40,10 +40,11 @@ plt.xticks(rotation=45)
 plt.ylabel('Proportion of Married Population')
 plt.show()
 
-print("\n💡 INSIGHT 1: The dataset contains various marital statuses, with 'Married' being one of the most frequent.")
-print("💡 INSIGHT 2: We can approximate a marriage rate by calculating the proportion of the population that is married.")
-print("💡 INSIGHT 3: Some countries have a significantly higher proportion of their population reported as married compared to others.")
+print("\nINSIGHT 1: The dataset contains various marital statuses, with 'Married' being one of the most frequent.")
+print("INSIGHT 2: We can approximate a marriage rate by calculating the proportion of the population that is married.")
+print("INSIGHT 3: Some countries have a significantly higher proportion of their population reported as married compared to others.")
 
 df.to_csv("cleaned_world_marriage_data.csv", index=False)
+
 
 print("\n✅ Analysis updated. The new plots and insights are based on the actual columns in your dataset.")
